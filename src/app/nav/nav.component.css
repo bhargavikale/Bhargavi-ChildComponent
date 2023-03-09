@@ -1,0 +1,23 @@
+a{
+    color:black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+hr{
+    background-color: lightgrey;
+}
+.active{
+    background-color: lightgrey;
+    padding-top:7px;
+    padding-left:7px;
+}

@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+    flex-direction:row;
+}
+.course-container{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    max-width:300px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.details-container{
+    display:flex;
+    flex-direction:row
+}
+p{
+    margin:10px;
+}
+h5{
+    text-align: center;
+}
+hr{
+    background-color: lightgrey;
+}

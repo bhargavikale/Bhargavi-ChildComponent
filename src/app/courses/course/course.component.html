@@ -1,0 +1,21 @@
+<div class="container">
+    <ng-container>
+        <div class="course-container">
+            <h1>{{course.name}}</h1>
+            <div *ngIf="editMode">
+                <input type="text" [(ngModel)] = "course.name">
+            </div>
+            <p>{{course.about}}</p>
+            <div class="details-container">
+                <p>{{course.type}}</p>
+                <p>{{'Price:'+course.Price}}</p>
+            </div>
+        </div>
+    </ng-container>
+    <div>
+        <!--<button [routerLink]="['/Courses/Course',course.id]" [queryParams]="{edit:true}">Edit</button>-->
+        <button (click)="appendQueryparam()">Edit</button>
+        <button (click)="editMode=false" [routerLink]="['/Courses/Course',course.id]">Update</button>
+    </div>
+    <a [routerLink]="['/Courses/Course',1]">Go to First Course</a>
+</div>

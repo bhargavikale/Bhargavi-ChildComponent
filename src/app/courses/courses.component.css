@@ -1,0 +1,23 @@
+
+.course-container{
+    margin:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    max-width:280px;
+}
+.details-container{
+    display:flex;
+    flex-direction:row
+}
+p{
+    margin:10px;
+}
+h5{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
